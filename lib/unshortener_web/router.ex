@@ -7,5 +7,6 @@ defmodule UnshortenerWeb.Router do
 
   scope "/api", UnshortenerWeb do
     pipe_through :api
+    post "/unshorten", UnshortenController, :index
   end
 end
