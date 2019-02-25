@@ -17,6 +17,11 @@ config :unshortener, UnshortenerWeb.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :unshortener, :amqp,
+  host: System.get_env("AMQP_HOST"),
+  username: System.get_env("AMQP_USERNAME"),
+  password: System.get_env("AMQP_PASSWORD")
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key

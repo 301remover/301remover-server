@@ -6,18 +6,14 @@ defmodule Unshortener.Application do
   use Application
 
   def start(_type, _args) do
-    # List all child processes to be supervised
-    children = [
-      # Start the endpoint when the application starts
-      UnshortenerWeb.Endpoint
-      # Starts a worker by calling: Unshortener.Worker.start_link(arg)
-      # {Unshortener.Worker, arg},
-    ]
-
-    # See https://hexdocs.pm/elixir/Supervisor.html
-    # for other strategies and supported options
+    import Supervisor.Spec
     opts = [strategy: :one_for_one, name: Unshortener.Supervisor]
-    Supervisor.start_link(children, opts)
+
+    [
+      UnshortenerWeb.Endpoint,
+      worker(Unshortener.AmqpConnection, [])
+    ]
+    |> Supervisor.start_link(opts)
   end
 
   # Tell Phoenix to update the endpoint configuration
