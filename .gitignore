@@ -36,3 +36,5 @@ unshortener-*.tar
 /config/*.secret.exs
 
 /log
+
+/.elixir_ls/
