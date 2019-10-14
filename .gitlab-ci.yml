@@ -1,0 +1,18 @@
+test:
+  image: elixir:1.7.4
+  services:
+    - postgres:latest
+  variables:
+    POSTGRES_DB: unshortener_test
+    POSTGRES_HOST: postgres
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: "postgres"
+    MIX_ENV: "test"
+  script:
+    - mix local.rebar --force
+    - mix local.hex --force
+    - apt-get update && apt-get -y install postgresql-client
+    - mix deps.get
+    - mix ecto.create
+    - mix ecto.migrate
+    - mix coveralls
