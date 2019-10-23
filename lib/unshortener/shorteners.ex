@@ -56,6 +56,24 @@ defmodule Unshortener.Shorteners do
   end
 
   @doc """
+  Creates a shortener.
+
+  ## Examples
+
+      iex> create_shortener(%{field: value})
+      {:ok, %Shortener{}}
+
+      iex> create_shortener(%{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def create_shortener!(attrs \\ %{}) do
+    %Shortener{}
+    |> Shortener.changeset(attrs)
+    |> Repo.insert!()
+  end
+
+  @doc """
   Updates a shortener.
 
   ## Examples
