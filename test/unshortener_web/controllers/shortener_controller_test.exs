@@ -5,13 +5,13 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
   alias Unshortener.Shorteners.Shortener
 
   @create_attrs %{
-    domain: "some domain",
+    domain: "some_domain.com",
     shortcode_alphabet: "some shortcode_alphabet",
     supports_https: true,
     url_pattern: "some url_pattern"
   }
   @update_attrs %{
-    domain: "some updated domain",
+    domain: "some-updated-domain.com",
     shortcode_alphabet: "some updated shortcode_alphabet",
     supports_https: false,
     url_pattern: "some updated url_pattern"
@@ -43,7 +43,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
 
       assert %{
                "id" => id,
-               "domain" => "some domain",
+               "domain" => "some_domain.com",
                "shortcode_alphabet" => "some shortcode_alphabet",
                "supports_https" => true,
                "url_pattern" => "some url_pattern"
@@ -59,7 +59,10 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
   describe "update shortener" do
     setup [:create_shortener]
 
-    test "renders shortener when data is valid", %{conn: conn, shortener: %Shortener{id: id} = shortener} do
+    test "renders shortener when data is valid", %{
+      conn: conn,
+      shortener: %Shortener{id: id} = shortener
+    } do
       conn = put(conn, Routes.shortener_path(conn, :update, shortener), shortener: @update_attrs)
       assert %{"id" => ^id} = json_response(conn, 200)["data"]
 
@@ -67,7 +70,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
 
       assert %{
                "id" => id,
-               "domain" => "some updated domain",
+               "domain" => "some-updated-domain.com",
                "shortcode_alphabet" => "some updated shortcode_alphabet",
                "supports_https" => false,
                "url_pattern" => "some updated url_pattern"
