@@ -19,5 +19,8 @@ defmodule Unshortener.Shorteners.Shortener do
 
     # this is significantly more permissive than the real domain name format
     |> validate_format(:domain, ~r/[a-zA-Z0-9_\-\.]+/)
+
+    # the string "{shortcode}" must appear somewhere in the pattern
+    |> validate_format(:url_pattern, ~r/\{shortcode\}/)
   end
 end

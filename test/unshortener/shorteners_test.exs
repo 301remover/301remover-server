@@ -10,13 +10,13 @@ defmodule Unshortener.ShortenersTest do
       domain: "some_domain.com",
       shortcode_alphabet: "some shortcode_alphabet",
       supports_https: true,
-      url_pattern: "some url_pattern"
+      url_pattern: "some_domain\\.com\\/{shortcode}"
     }
     @update_attrs %{
       domain: "some-updated-domain.com",
       shortcode_alphabet: "some updated shortcode_alphabet",
       supports_https: false,
-      url_pattern: "some updated url_pattern"
+      url_pattern: "some-updated-domain\\.com\\/{shortcode}"
     }
     @invalid_attrs %{
       domain: nil,
@@ -49,7 +49,7 @@ defmodule Unshortener.ShortenersTest do
       assert shortener.domain == @valid_attrs[:domain]
       assert shortener.shortcode_alphabet == "some shortcode_alphabet"
       assert shortener.supports_https == true
-      assert shortener.url_pattern == "some url_pattern"
+      assert shortener.url_pattern == @valid_attrs[:url_pattern]
     end
 
     test "create_shortener/1 with invalid data returns error changeset" do
@@ -65,7 +65,7 @@ defmodule Unshortener.ShortenersTest do
       assert shortener.domain == @update_attrs[:domain]
       assert shortener.shortcode_alphabet == "some updated shortcode_alphabet"
       assert shortener.supports_https == false
-      assert shortener.url_pattern == "some updated url_pattern"
+      assert shortener.url_pattern == @update_attrs[:url_pattern]
     end
 
     test "update_shortener/2 with invalid data returns error changeset" do

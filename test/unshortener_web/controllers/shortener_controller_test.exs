@@ -8,13 +8,13 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
     domain: "some_domain.com",
     shortcode_alphabet: "some shortcode_alphabet",
     supports_https: true,
-    url_pattern: "some url_pattern"
+    url_pattern: "some_domain\\.com\\/{shortcode}"
   }
   @update_attrs %{
     domain: "some-updated-domain.com",
     shortcode_alphabet: "some updated shortcode_alphabet",
     supports_https: false,
-    url_pattern: "some updated url_pattern"
+    url_pattern: "some-updated-domain\\.com\\/{shortcode}"
   }
   @invalid_attrs %{domain: nil, shortcode_alphabet: nil, supports_https: nil, url_pattern: nil}
 
@@ -46,7 +46,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
                "domain" => "some_domain.com",
                "shortcode_alphabet" => "some shortcode_alphabet",
                "supports_https" => true,
-               "url_pattern" => "some url_pattern"
+               "url_pattern" => "some_domain\\.com\\/{shortcode}"
              } = json_response(conn, 200)["data"]
     end
 
@@ -73,7 +73,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
                "domain" => "some-updated-domain.com",
                "shortcode_alphabet" => "some updated shortcode_alphabet",
                "supports_https" => false,
-               "url_pattern" => "some updated url_pattern"
+               "url_pattern" => "some-updated-domain\\.com\\/{shortcode}"
              } = json_response(conn, 200)["data"]
     end
 
