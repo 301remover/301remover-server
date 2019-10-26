@@ -19,3 +19,17 @@ To start your Phoenix server:
 - Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit <http://localhost:4000> from your browser.
+
+## Running Prod
+Build using the docker file:
+
+```bash
+docker build .
+```
+
+Then run using docker with:
+```
+docker run --net=host -e DATABASE_URL'postgres://postgres:postgres@0.0.0.0:5432/unshortener_dev <container>
+```
+
+It is assumed that the postgresql docker image is running
