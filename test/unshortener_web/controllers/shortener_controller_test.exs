@@ -35,6 +35,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
   end
 
   describe "create shortener" do
+    @tag :skip
     test "renders shortener when data is valid", %{conn: conn} do
       conn = post(conn, Routes.shortener_path(conn, :create), shortener: @create_attrs)
       assert %{"id" => id} = json_response(conn, 201)["data"]
@@ -50,6 +51,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
              } = json_response(conn, 200)["data"]
     end
 
+    @tag :skip
     test "renders errors when data is invalid", %{conn: conn} do
       conn = post(conn, Routes.shortener_path(conn, :create), shortener: @invalid_attrs)
       assert json_response(conn, 422)["errors"] != %{}
@@ -59,6 +61,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
   describe "update shortener" do
     setup [:create_shortener]
 
+    @tag :skip
     test "renders shortener when data is valid", %{
       conn: conn,
       shortener: %Shortener{id: id} = shortener
@@ -77,6 +80,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
              } = json_response(conn, 200)["data"]
     end
 
+    @tag :skip
     test "renders errors when data is invalid", %{conn: conn, shortener: shortener} do
       conn = put(conn, Routes.shortener_path(conn, :update, shortener), shortener: @invalid_attrs)
       assert json_response(conn, 422)["errors"] != %{}
@@ -86,6 +90,7 @@ defmodule UnshortenerWeb.ShortenerControllerTest do
   describe "delete shortener" do
     setup [:create_shortener]
 
+    @tag :skip
     test "deletes chosen shortener", %{conn: conn, shortener: shortener} do
       conn = delete(conn, Routes.shortener_path(conn, :delete, shortener))
       assert response(conn, 204)

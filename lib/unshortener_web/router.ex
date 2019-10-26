@@ -7,6 +7,7 @@ defmodule UnshortenerWeb.Router do
 
   scope "/api", UnshortenerWeb do
     pipe_through :api
-    resources "/shorteners", ShortenerController, except: [:new, :edit]
+    get("/shorteners", ShortenerController, :index)
+    get("/shorteners/:id", ShortenerController, :show)
   end
 end
