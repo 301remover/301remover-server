@@ -40,6 +40,7 @@ defmodule Unshortener.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:corsica, "~> 1.1"},
       {:ecto_sql, "~> 3.1"},
       {:excoveralls, "~> 0.6", only: :test},
       {:gettext, "~> 0.11"},
