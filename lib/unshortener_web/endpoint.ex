@@ -40,5 +40,13 @@ defmodule UnshortenerWeb.Endpoint do
     key: "_unshortener_key",
     signing_salt: "kzz0HemS"
 
+  plug(
+    Corsica,
+    origins: "*",
+    allow_methods: :all,
+    allow_headers: :all,
+    allow_credentials: true
+  )
+
   plug UnshortenerWeb.Router
 end
