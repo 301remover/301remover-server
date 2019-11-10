@@ -9,5 +9,6 @@ defmodule UnshortenerWeb.Router do
     pipe_through :api
     get("/shorteners", ShortenerController, :index)
     get("/shorteners/:id", ShortenerController, :show)
+    post("/unshorten", UrlUnshortenController, :index)
   end
 end
