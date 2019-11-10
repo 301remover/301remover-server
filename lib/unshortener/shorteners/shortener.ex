@@ -16,6 +16,7 @@ defmodule Unshortener.Shorteners.Shortener do
     shortener
     |> cast(attrs, [:domain, :url_pattern, :shortcode_alphabet, :supports_https])
     |> validate_required([:domain, :url_pattern, :shortcode_alphabet, :supports_https])
+    |> unique_constraint(:domain)
 
     # this is significantly more permissive than the real domain name format
     |> validate_format(:domain, ~r/[a-zA-Z0-9_\-\.]+/)
