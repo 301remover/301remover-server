@@ -42,6 +42,7 @@ defmodule Unshortener.MixProject do
     [
       {:ecto_sql, "~> 3.1"},
       {:excoveralls, "~> 0.6", only: :test},
+      {:freddy, "~> 0.15.0"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:phoenix, "~> 1.4.10"},
