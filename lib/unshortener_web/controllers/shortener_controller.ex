@@ -28,7 +28,8 @@ defmodule UnshortenerWeb.ShortenerController do
   def update(conn, %{"id" => id, "shortener" => shortener_params}) do
     shortener = Shorteners.get_shortener!(id)
 
-    with {:ok, %Shortener{} = shortener} <- Shorteners.update_shortener(shortener, shortener_params) do
+    with {:ok, %Shortener{} = shortener} <-
+           Shorteners.update_shortener(shortener, shortener_params) do
       render(conn, "show.json", shortener: shortener)
     end
   end

@@ -11,10 +11,12 @@ defmodule UnshortenerWeb.ShortenerView do
   end
 
   def render("shortener.json", %{shortener: shortener}) do
-    %{id: shortener.id,
+    %{
+      id: shortener.id,
       domain: shortener.domain,
       url_pattern: shortener.url_pattern,
       shortcode_alphabet: shortener.shortcode_alphabet,
-      supports_https: shortener.supports_https}
+      supports_https: shortener.supports_https
+    }
   end
 end

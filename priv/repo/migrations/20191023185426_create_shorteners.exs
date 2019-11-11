@@ -10,6 +10,5 @@ defmodule Unshortener.Repo.Migrations.CreateShorteners do
 
       timestamps()
     end
-
   end
 end
