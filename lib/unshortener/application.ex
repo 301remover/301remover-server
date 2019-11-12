@@ -6,19 +6,23 @@ defmodule Unshortener.Application do
   use Application
 
   def start(_type, _args) do
+    import Supervisor.Spec
+
     # List all child processes to be supervised
     children = [
-      # Start the Ecto repository
+      # Start ecto repo
       Unshortener.Repo,
-      # Start the endpoint when the application starts
-      UnshortenerWeb.Endpoint
-      # Starts a worker by calling: Unshortener.Worker.start_link(arg)
-      # {Unshortener.Worker, arg},
+      # Start endpoint when application starts
+      UnshortenerWeb.Endpoint,
+
+      # Start message queue 
+      worker(Unshortener.AmqpConnection, [])
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: Unshortener.Supervisor]
+
     Supervisor.start_link(children, opts)
   end
 
