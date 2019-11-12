@@ -22,6 +22,11 @@ config :unshortener, UnshortenerWeb.Endpoint,
   check_origin: false,
   watchers: []
 
+config :unshortener, :amqp,
+  host: "localhost",
+  username: "301remover",
+  password: "your_password_here"
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed
