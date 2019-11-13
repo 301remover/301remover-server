@@ -12,7 +12,7 @@ config :logger, level: :info
 config :unshortener, :amqp,
   host: System.get_env("RABBITMQ_HOST"),
   username: System.get_env("RABBITMQ_USER"),
-  password: System.get_env("RABBITMQ_USER")
+  password: System.get_env("RABBITMQ_PASS")
 
 config :unshortener, Unshortener.Repo,
   # ssl: true,
