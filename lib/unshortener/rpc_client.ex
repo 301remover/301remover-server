@@ -11,7 +11,7 @@ defmodule Unshortener.RpcClient do
 
   @config [exchange: @exchange]
 
-  def start_link(conn, opts \\ []) do
+  def start_link(conn, _opts \\ []) do
     Freddy.RPC.Client.start_link(__MODULE__, conn, @config, nil, name: __MODULE__)
   end
 
@@ -35,7 +35,7 @@ defmodule Unshortener.RpcClient do
   end
 
   @impl true
-  def on_response(response, request, state) do
+  def on_response(response, _request, state) do
     {:reply, response, state}
   end
 end
