@@ -7,7 +7,7 @@ defmodule Unshortener.AmqpConnection do
       {:ok, _client} = Unshortener.RpcClient.start_link(conn)
     else
       {:ok, conn} = Freddy.Connection.start_link(adapter: :sandbox)
-      {:ok, client} = MockClient.start_link(conn)
+      {:ok, _client} = MockClient.start_link(conn)
     end
   end
 end
