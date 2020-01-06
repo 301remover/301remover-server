@@ -3,23 +3,18 @@
 
 alias Unshortener.Shorteners
 
-Shorteners.create_shortener!(%{
-  "domain" => "0rz.tw",
-  "url_pattern" => "0rz\\.tw\\/{shortcode}",
-  "shortcode_alphabet" => "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-  "supports_https" => true
-})
+{:ok, body} = File.read("urlteam.json")
+json = Jason.decode!(body)
 
-Shorteners.create_shortener!(%{
-  "domain" => "bit.ly",
-  "url_pattern" => "bit\\.ly\\/{shortcode}",
-  "shortcode_alphabet" => "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
-  "supports_https" => true
-})
+Enum.each(json, fn service ->
+  name = Map.fetch!(service, "name")
+  shortcode_alphabet = Map.fetch!(service, "shortcode_alphabet")
+  url_pattern = Map.fetch!(service, "url_pattern")
 
-Shorteners.create_shortener!(%{
-  "domain" => "tinyurl.com",
-  "url_pattern" => "tinyurl\\.com\\/{shortcode}",
-  "shortcode_alphabet" => "0123456789abcdefghijklmnopqrstuvwxyz",
-  "supports_https" => true
-})
+  Shorteners.create_shortener!(%{
+    "domain" => name,
+    "url_pattern" => url_pattern,
+    "shortcode_alphabet" => shortcode_alphabet,
+    "supports_https" => false
+  })
+end)
