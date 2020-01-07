@@ -270,18 +270,6 @@
     "supports_https": false
   },
   {
-    "domain": "hub.me",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "hub\\.me\\/a{shortcode}",
-    "supports_https": false
-  },
-  {
-    "domain": "hub.me",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "hub\\.me\\/r{shortcode}",
-    "supports_https": false
-  },
-  {
     "domain": "is.gd",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
     "url_pattern": "is\\.gd\\/{shortcode}",
