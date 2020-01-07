@@ -1,652 +1,782 @@
 [
   {
-    "name": "0-mk",
+    "domain": "0-mk",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://0.mk/{shortcode}"
+    "url_pattern": "http://0.mk/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "0rz-tw",
+    "domain": "0rz-tw",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://0rz.tw/{shortcode}"
+    "url_pattern": "http://0rz.tw/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "1r-hu",
+    "domain": "1r-hu",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://1r.hu/{shortcode}"
+    "url_pattern": "http://1r.hu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "2-gp",
+    "domain": "2-gp",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://2.gp/{shortcode}"
+    "url_pattern": "http://2.gp/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "2-ly",
+    "domain": "2-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://2.ly/{shortcode}"
+    "url_pattern": "http://2.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "2jump-info",
+    "domain": "2jump-info",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_.",
-    "url_pattern": "http://2jump.info/{shortcode}"
+    "url_pattern": "http://2jump.info/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "7-ly",
+    "domain": "7-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://7.ly/{shortcode}"
+    "url_pattern": "http://7.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "999-sh",
+    "domain": "999-sh",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://999.sh/{shortcode}"
+    "url_pattern": "http://999.sh/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "a-gg",
+    "domain": "a-gg",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://a.gg/{shortcode}"
+    "url_pattern": "http://a.gg/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "adjix",
+    "domain": "adjix",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://adjix.com/{shortcode}"
+    "url_pattern": "http://adjix.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "alturl-com",
+    "domain": "alturl-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://alturl.com/{shortcode}"
+    "url_pattern": "http://alturl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "ar-gy",
+    "domain": "ar-gy",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://ar.gy/{shortcode}"
+    "url_pattern": "http://ar.gy/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "arseh-at",
+    "domain": "arseh-at",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://arseh.at/{shortcode}"
+    "url_pattern": "http://arseh.at/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "awe-sm",
+    "domain": "awe-sm",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://awe.sm/{shortcode}"
+    "url_pattern": "http://awe.sm/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "azon-biz",
+    "domain": "azon-biz",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://azon.biz/{shortcode}"
+    "url_pattern": "http://azon.biz/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "bit-do",
+    "domain": "bit-do",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-",
-    "url_pattern": "http://bit.do/{shortcode}"
+    "url_pattern": "http://bit.do/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "bitly_6",
+    "domain": "bitly_6",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
-    "url_pattern": "http://bit.ly/{shortcode}"
+    "url_pattern": "http://bit.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "buff-ly",
+    "domain": "buff-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://buff.ly/{shortcode}"
+    "url_pattern": "http://buff.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "bull-hn",
+    "domain": "bull-hn",
     "shortcode_alphabet": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://bull.hn/l/{shortcode}/"
+    "url_pattern": "http://bull.hn/l/{shortcode}/",
+    "supports_https": false
   },
   {
-    "name": "burl-se",
+    "domain": "burl-se",
     "shortcode_alphabet": "0123456789abcdef",
-    "url_pattern": "http://burl.se/{shortcode}"
+    "url_pattern": "http://burl.se/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "ccl-hu",
+    "domain": "ccl-hu",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://ccl.hu/{shortcode}"
+    "url_pattern": "http://ccl.hu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "chilp-it",
+    "domain": "chilp-it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://chilp-it/{shortcode}"
+    "url_pattern": "http://chilp-it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "cmplx-it",
+    "domain": "cmplx-it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://cmplx.it/{shortcode}"
+    "url_pattern": "http://cmplx.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "cort-as",
+    "domain": "cort-as",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-",
-    "url_pattern": "http://cort.as/{shortcode}"
+    "url_pattern": "http://cort.as/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "cutt-us",
+    "domain": "cutt-us",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://cutt.us/{shortcode}"
+    "url_pattern": "http://cutt.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "da-gd",
+    "domain": "da-gd",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://da.gd/{shortcode}"
+    "url_pattern": "http://da.gd/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "db-tt",
+    "domain": "db-tt",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://db.tt/{shortcode}"
+    "url_pattern": "http://db.tt/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "df4-us",
+    "domain": "df4-us",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://df4.us/{shortcode}"
+    "url_pattern": "http://df4.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "digbig-com",
+    "domain": "digbig-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://digbig.com/{shortcode}"
+    "url_pattern": "http://digbig.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "dld-bz",
+    "domain": "dld-bz",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://dld.bz/{shortcode}"
+    "url_pattern": "http://dld.bz/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "dlvr-it",
+    "domain": "dlvr-it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://dlvr.it/{shortcode}"
+    "url_pattern": "http://dlvr.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "don8blood-com",
+    "domain": "don8blood-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
-    "url_pattern": "https://don8blood.com/{shortcode}"
+    "url_pattern": "https://don8blood.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "dwurl-hu",
+    "domain": "dwurl-hu",
     "shortcode_alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://dwurl.hu/{shortcode}"
+    "url_pattern": "http://dwurl.hu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "feedly_8",
+    "domain": "feedly_8",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
-    "url_pattern": "http://feedly.com/e/{shortcode}"
+    "url_pattern": "http://feedly.com/e/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "flip-it",
+    "domain": "flip-it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
-    "url_pattern": "http://flip.it/{shortcode}"
+    "url_pattern": "http://flip.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "fos-hu",
+    "domain": "fos-hu",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://fos.hu/{shortcode}"
+    "url_pattern": "http://fos.hu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "fwdurl-net",
+    "domain": "fwdurl-net",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://fwdurl.net/{shortcode}"
+    "url_pattern": "http://fwdurl.net/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "getsatisfaction-com",
+    "domain": "getsatisfaction-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "https://getsatisfaction.com/t/{shortcode}"
+    "url_pattern": "https://getsatisfaction.com/t/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "gg-gg",
+    "domain": "gg-gg",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://gg.gg/{shortcode}"
+    "url_pattern": "http://gg.gg/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "gkurl-us",
+    "domain": "gkurl-us",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://gkurl.us/{shortcode}"
+    "url_pattern": "http://gkurl.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "go-usa-gov",
+    "domain": "go-usa-gov",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://go.usa.gov/{shortcode}"
+    "url_pattern": "https://go.usa.gov/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "goo-gl",
+    "domain": "goo-gl",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://goo.gl/{shortcode}"
+    "url_pattern": "https://goo.gl/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "gouri-tv",
+    "domain": "gouri-tv",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://gouri.tv/{shortcode}"
+    "url_pattern": "http://gouri.tv/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "hec-su",
+    "domain": "hec-su",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://hec.su/{shortcode}"
+    "url_pattern": "https://hec.su/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "hoblu-es",
+    "domain": "hoblu-es",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://hoblu.es/{shortcode}"
+    "url_pattern": "http://hoblu.es/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "hub-me-a",
+    "domain": "hub-me-a",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://hub.me/a{shortcode}"
+    "url_pattern": "http://hub.me/a{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "hub-me-r",
+    "domain": "hub-me-r",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://hub.me/r{shortcode}"
+    "url_pattern": "http://hub.me/r{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "isgd_6",
+    "domain": "isgd_6",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
-    "url_pattern": "https://is.gd/{shortcode}"
+    "url_pattern": "https://is.gd/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "jdem-cz",
+    "domain": "jdem-cz",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://jdem.cz/{shortcode}"
+    "url_pattern": "http://jdem.cz/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "kas-pr",
+    "domain": "kas-pr",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://kas.pr/{shortcode}"
+    "url_pattern": "http://kas.pr/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "kcy-me",
+    "domain": "kcy-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://kcy.me/{shortcode}"
+    "url_pattern": "http://kcy.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "korta-nu",
+    "domain": "korta-nu",
     "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
-    "url_pattern": "http://korta.nu/{shortcode}"
+    "url_pattern": "http://korta.nu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "like2b-uy",
+    "domain": "like2b-uy",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://like2b.uy/{shortcode}"
+    "url_pattern": "http://like2b.uy/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "lnk-sk",
+    "domain": "lnk-sk",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://lnk.sk/{shortcode}"
+    "url_pattern": "http://lnk.sk/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "lnq-me",
+    "domain": "lnq-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://lnq.me/{shortcode}"
+    "url_pattern": "http://lnq.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "lurl-no",
+    "domain": "lurl-no",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://lurl.no/{shortcode}"
+    "url_pattern": "http://lurl.no/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "m0e-me",
+    "domain": "m0e-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://m0e.me/{shortcode}"
+    "url_pattern": "http://m0e.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "migre-me",
+    "domain": "migre-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://www.migre.me/{shortcode}"
+    "url_pattern": "http://www.migre.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "minu-me",
+    "domain": "minu-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://minu.me/{shortcode}"
+    "url_pattern": "http://minu.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "mrte-ch",
+    "domain": "mrte-ch",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://mrte.ch/{shortcode}"
+    "url_pattern": "http://mrte.ch/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "mysp-ac",
+    "domain": "mysp-ac",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://mysp.ac/{shortcode}"
+    "url_pattern": "https://mysp.ac/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "nblo-gs",
+    "domain": "nblo-gs",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://nblo.gs/{shortcode}"
+    "url_pattern": "http://nblo.gs/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "nig-gr",
+    "domain": "nig-gr",
     "shortcode_alphabet": "_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://nig.gr/{shortcode}"
+    "url_pattern": "http://nig.gr/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "nsfw-in",
+    "domain": "nsfw-in",
     "shortcode_alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://nsfw.in/{shortcode}"
+    "url_pattern": "http://nsfw.in/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "oak-ctx-ly",
+    "domain": "oak-ctx-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://oak.ctx.ly/r/{shortcode}"
+    "url_pattern": "http://oak.ctx.ly/r/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "ow-ly",
+    "domain": "ow-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://ow.ly/{shortcode}"
+    "url_pattern": "http://ow.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "p-ly",
+    "domain": "p-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://p.ly/{shortcode}"
+    "url_pattern": "http://p.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "pear-ly",
+    "domain": "pear-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://pear.ly/{shortcode}"
+    "url_pattern": "http://pear.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "ph-ly",
+    "domain": "ph-ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
-    "url_pattern": "http://ph.ly/{shortcode}"
+    "url_pattern": "http://ph.ly/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "piciurl-hu",
+    "domain": "piciurl-hu",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_",
-    "url_pattern": "http://piciurl.hu/{shortcode}"
+    "url_pattern": "http://piciurl.hu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "poeurl-com",
+    "domain": "poeurl-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://poeurl.com/{shortcode}"
+    "url_pattern": "http://poeurl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "poeurl-com3",
+    "domain": "poeurl-com3",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://poeurl.com/{shortcode}"
+    "url_pattern": "http://poeurl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "pub-vitrue-com",
+    "domain": "pub-vitrue-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://pub.vitrue.com/{shortcode}"
+    "url_pattern": "http://pub.vitrue.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "puri-na",
+    "domain": "puri-na",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://puri.na/{shortcode}"
+    "url_pattern": "http://puri.na/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "qr-cx",
+    "domain": "qr-cx",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://qr.cx/{shortcode}"
+    "url_pattern": "http://qr.cx/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "qt-catbox-moe",
+    "domain": "qt-catbox-moe",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "https://qt.catbox.moe/{shortcode}"
+    "url_pattern": "https://qt.catbox.moe/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "rlu-ru",
+    "domain": "rlu-ru",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://rlu.ru/{shortcode}"
+    "url_pattern": "http://rlu.ru/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "rod-gs",
+    "domain": "rod-gs",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://rod.gs/{shortcode}"
+    "url_pattern": "http://rod.gs/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "rtsoftware-systems",
+    "domain": "rtsoftware-systems",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://rtsoftware.systems/{shortcode}"
+    "url_pattern": "http://rtsoftware.systems/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "s-id",
+    "domain": "s-id",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://s.id/{shortcode}"
+    "url_pattern": "http://s.id/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "shar-es",
+    "domain": "shar-es",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://shar.es/{shortcode}"
+    "url_pattern": "http://shar.es/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "sharedby-co_6",
+    "domain": "sharedby-co_6",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://sharedby.co/{shortcode}"
+    "url_pattern": "http://sharedby.co/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "shortdoi-org",
+    "domain": "shortdoi-org",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://dx.doi.org/10/{shortcode}"
+    "url_pattern": "http://dx.doi.org/10/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "shortn-me",
+    "domain": "shortn-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://shortn.me/{shortcode}"
+    "url_pattern": "http://shortn.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "shrt-st",
+    "domain": "shrt-st",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://shrt.st/{shortcode}"
+    "url_pattern": "http://shrt.st/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "sketchfab-com",
+    "domain": "sketchfab-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://sketchfab.com/s/{shortcode}"
+    "url_pattern": "https://sketchfab.com/s/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "snipurl",
+    "domain": "snipurl",
     "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz-_~",
-    "url_pattern": "http://snipurl.com/{shortcode}"
+    "url_pattern": "http://snipurl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "snipurl_range2",
+    "domain": "snipurl_range2",
     "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz-_~",
-    "url_pattern": "http://snipurl.com/{shortcode}"
+    "url_pattern": "http://snipurl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "spne-ws",
+    "domain": "spne-ws",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://spne.ws/{shortcode}"
+    "url_pattern": "http://spne.ws/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "spnsr-tw",
+    "domain": "spnsr-tw",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://spnsr.tw/{shortcode}"
+    "url_pattern": "http://spnsr.tw/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "srtn-us",
+    "domain": "srtn-us",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://srtn.us/{shortcode}"
+    "url_pattern": "http://srtn.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "sx3-se",
+    "domain": "sx3-se",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://sx3.se/{shortcode}"
+    "url_pattern": "http://sx3.se/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "t7-hu",
+    "domain": "t7-hu",
     "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://t7.hu/{shortcode}"
+    "url_pattern": "http://t7.hu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "techme-me",
+    "domain": "techme-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://techme.me/{shortcode}"
+    "url_pattern": "http://techme.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "theguardian-com",
+    "domain": "theguardian-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://www.theguardian.com/p/{shortcode}"
+    "url_pattern": "https://www.theguardian.com/p/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "tighturl-com",
+    "domain": "tighturl-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://tighturl.com/{shortcode}"
+    "url_pattern": "http://tighturl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "tiny-pl",
+    "domain": "tiny-pl",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://tiny.pl/{shortcode}"
+    "url_pattern": "http://tiny.pl/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "tiny-tw",
+    "domain": "tiny-tw",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://tiny.tw/{shortcode}"
+    "url_pattern": "http://tiny.tw/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "tinyurl-hu_4",
+    "domain": "tinyurl-hu_4",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://tinyurl.hu/{shortcode}/"
+    "url_pattern": "http://tinyurl.hu/{shortcode}/",
+    "supports_https": false
   },
   {
-    "name": "tinyurl_7",
+    "domain": "tinyurl_7",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://tinyurl.com/{shortcode}"
+    "url_pattern": "http://tinyurl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "tip-pe",
+    "domain": "tip-pe",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://tip.pe/{shortcode}"
+    "url_pattern": "http://tip.pe/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "tr-im_gravity4",
+    "domain": "tr-im_gravity4",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://tr.im/{shortcode}"
+    "url_pattern": "https://tr.im/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "trap-it",
+    "domain": "trap-it",
     "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://trap.it/{shortcode}"
+    "url_pattern": "http://trap.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "u-to",
+    "domain": "u-to",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://u.to/{shortcode}"
+    "url_pattern": "http://u.to/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "u4-hu",
+    "domain": "u4-hu",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://u4.hu/x/{shortcode}"
+    "url_pattern": "https://u4.hu/x/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "ur1-ca",
+    "domain": "ur1-ca",
     "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://ur1.ca/{shortcode}"
+    "url_pattern": "http://ur1.ca/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "url-ie",
+    "domain": "url-ie",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://url.ie/{shortcode}"
+    "url_pattern": "http://url.ie/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "urlcut-com",
+    "domain": "urlcut-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://urlcut.com/{shortcode}"
+    "url_pattern": "https://urlcut.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "vbly-us",
+    "domain": "vbly-us",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://vbly.us/{shortcode}"
+    "url_pattern": "http://vbly.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "vgd_6",
+    "domain": "vgd_6",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
-    "url_pattern": "https://v.gd/{shortcode}"
+    "url_pattern": "https://v.gd/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "viddy-it",
+    "domain": "viddy-it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://www.viddy.it/{shortcode}"
+    "url_pattern": "http://www.viddy.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "vzturl-com",
+    "domain": "vzturl-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://vzturl.com/{shortcode}"
+    "url_pattern": "http://vzturl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "waa-ai",
+    "domain": "waa-ai",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://waa.ai/{shortcode}"
+    "url_pattern": "https://waa.ai/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "wowurl-com",
+    "domain": "wowurl-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://wowurl.com/{shortcode}"
+    "url_pattern": "http://wowurl.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "wp-me",
+    "domain": "wp-me",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://wp.me/{shortcode}"
+    "url_pattern": "http://wp.me/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "x-vu",
+    "domain": "x-vu",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://x.vu/{shortcode}"
+    "url_pattern": "http://x.vu/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "xco",
+    "domain": "xco",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "https://x.co/{shortcode}"
+    "url_pattern": "https://x.co/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "xn--i-8ia-ga",
+    "domain": "xn--i-8ia-ga",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://ĝi.ga/{shortcode}"
+    "url_pattern": "http://ĝi.ga/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "xrl-us",
+    "domain": "xrl-us",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://xrl.us/{shortcode}"
+    "url_pattern": "http://xrl.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "xrl-us_lowercase",
+    "domain": "xrl-us_lowercase",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://xrl.us/{shortcode}"
+    "url_pattern": "http://xrl.us/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "xurl-es",
+    "domain": "xurl-es",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://xurl.es/{shortcode}"
+    "url_pattern": "http://xurl.es/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "xxsurl-de",
+    "domain": "xxsurl-de",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://xxsURL.de/{shortcode}"
+    "url_pattern": "http://xxsurl.de/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "y-ahoo-it_5",
+    "domain": "y-ahoo-it_5",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+",
-    "url_pattern": "http://y.ahoo.it/{shortcode}"
+    "url_pattern": "http://y.ahoo.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "y-ahoo-it_6",
+    "domain": "y-ahoo-it_6",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://y.ahoo.it/{shortcode}"
+    "url_pattern": "http://y.ahoo.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "y-ahoo-it_8",
+    "domain": "y-ahoo-it_8",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://y.ahoo.it/{shortcode}"
+    "url_pattern": "http://y.ahoo.it/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "yatuc",
+    "domain": "yatuc",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_$",
-    "url_pattern": "http://yatuc.com/{shortcode}"
+    "url_pattern": "http://yatuc.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "yatuc-com",
+    "domain": "yatuc-com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_",
-    "url_pattern": "http://yatuc.com/{shortcode}"
+    "url_pattern": "http://yatuc.com/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "yoolink-to",
+    "domain": "yoolink-to",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://yoolink.to/{shortcode}"
+    "url_pattern": "http://yoolink.to/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "zpr-io",
+    "domain": "zpr-io",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "http://zpr.io/{shortcode}"
+    "url_pattern": "http://zpr.io/{shortcode}",
+    "supports_https": false
   },
   {
-    "name": "zurl-ws",
+    "domain": "zurl-ws",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "http://zurl.ws/{shortcode}"
+    "url_pattern": "http://zurl.ws/{shortcode}",
+    "supports_https": false
   }
 ]

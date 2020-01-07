@@ -16,7 +16,7 @@ websocat $WEBSOCKET -B $MiB -1 -E |\
                 break
             fi
             curl -s $INFO_URL$shortner |\
-                jq '. | {name: .name, shortcode_alphabet: .alphabet, url_pattern: .url_template}' >> $OUTPUT &&
+                jq '. | {domain: .name, shortcode_alphabet: .alphabet, url_pattern: .url_template | ascii_downcase, supports_https: false}' >> $OUTPUT &&
                 break
         done
     done
