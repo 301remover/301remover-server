@@ -23,5 +23,3 @@ websocat $WEBSOCKET -B $MiB -1 -E |\
 echo ] >> $OUTPUT
 cat $OUTPUT | sed -e 's/^}/},/' | tac | sed '2 s/.*/}/' | tac > tmp
 mv tmp $OUTPUT
-
-mix ecto.setup
