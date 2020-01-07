@@ -128,7 +128,7 @@
   {
     "domain": "chilp.it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "chilp-it\\/{shortcode}",
+    "url_pattern": "chilp.it\\/{shortcode}",
     "supports_https": false
   },
   {
