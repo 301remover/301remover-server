@@ -732,19 +732,7 @@
     "supports_https": false
   },
   {
-    "domain": "y-ahoo-it_5",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+",
-    "url_pattern": "y\\.ahoo\\.it\\/{shortcode}",
-    "supports_https": false
-  },
-  {
-    "domain": "y-ahoo-it_6",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "y\\.ahoo\\.it\\/{shortcode}",
-    "supports_https": false
-  },
-  {
-    "domain": "y-ahoo-it_8",
+    "domain": "y-ahoo-it",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
     "url_pattern": "y\\.ahoo\\.it\\/{shortcode}",
     "supports_https": false
