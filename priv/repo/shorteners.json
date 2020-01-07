@@ -99,7 +99,7 @@
     "domain": "bit.ly",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
     "url_pattern": "bit\\.ly\\/{shortcode}",
-    "supports_https": false
+    "supports_https": true
   },
   {
     "domain": "buff.ly",
