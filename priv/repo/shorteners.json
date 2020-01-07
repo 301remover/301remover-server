@@ -1,0 +1,652 @@
+[
+  {
+    "name": "0-mk",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://0.mk/{shortcode}"
+  },
+  {
+    "name": "0rz-tw",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://0rz.tw/{shortcode}"
+  },
+  {
+    "name": "1r-hu",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://1r.hu/{shortcode}"
+  },
+  {
+    "name": "2-gp",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://2.gp/{shortcode}"
+  },
+  {
+    "name": "2-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://2.ly/{shortcode}"
+  },
+  {
+    "name": "2jump-info",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_.",
+    "url_pattern": "http://2jump.info/{shortcode}"
+  },
+  {
+    "name": "7-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://7.ly/{shortcode}"
+  },
+  {
+    "name": "999-sh",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://999.sh/{shortcode}"
+  },
+  {
+    "name": "a-gg",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://a.gg/{shortcode}"
+  },
+  {
+    "name": "adjix",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://adjix.com/{shortcode}"
+  },
+  {
+    "name": "alturl-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://alturl.com/{shortcode}"
+  },
+  {
+    "name": "ar-gy",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://ar.gy/{shortcode}"
+  },
+  {
+    "name": "arseh-at",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://arseh.at/{shortcode}"
+  },
+  {
+    "name": "awe-sm",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://awe.sm/{shortcode}"
+  },
+  {
+    "name": "azon-biz",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://azon.biz/{shortcode}"
+  },
+  {
+    "name": "bit-do",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-",
+    "url_pattern": "http://bit.do/{shortcode}"
+  },
+  {
+    "name": "bitly_6",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
+    "url_pattern": "http://bit.ly/{shortcode}"
+  },
+  {
+    "name": "buff-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://buff.ly/{shortcode}"
+  },
+  {
+    "name": "bull-hn",
+    "shortcode_alphabet": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://bull.hn/l/{shortcode}/"
+  },
+  {
+    "name": "burl-se",
+    "shortcode_alphabet": "0123456789abcdef",
+    "url_pattern": "http://burl.se/{shortcode}"
+  },
+  {
+    "name": "ccl-hu",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://ccl.hu/{shortcode}"
+  },
+  {
+    "name": "chilp-it",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://chilp-it/{shortcode}"
+  },
+  {
+    "name": "cmplx-it",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://cmplx.it/{shortcode}"
+  },
+  {
+    "name": "cort-as",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-",
+    "url_pattern": "http://cort.as/{shortcode}"
+  },
+  {
+    "name": "cutt-us",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://cutt.us/{shortcode}"
+  },
+  {
+    "name": "da-gd",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://da.gd/{shortcode}"
+  },
+  {
+    "name": "db-tt",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://db.tt/{shortcode}"
+  },
+  {
+    "name": "df4-us",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://df4.us/{shortcode}"
+  },
+  {
+    "name": "digbig-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://digbig.com/{shortcode}"
+  },
+  {
+    "name": "dld-bz",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://dld.bz/{shortcode}"
+  },
+  {
+    "name": "dlvr-it",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://dlvr.it/{shortcode}"
+  },
+  {
+    "name": "don8blood-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
+    "url_pattern": "https://don8blood.com/{shortcode}"
+  },
+  {
+    "name": "dwurl-hu",
+    "shortcode_alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://dwurl.hu/{shortcode}"
+  },
+  {
+    "name": "feedly_8",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
+    "url_pattern": "http://feedly.com/e/{shortcode}"
+  },
+  {
+    "name": "flip-it",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_pattern": "http://flip.it/{shortcode}"
+  },
+  {
+    "name": "fos-hu",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://fos.hu/{shortcode}"
+  },
+  {
+    "name": "fwdurl-net",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://fwdurl.net/{shortcode}"
+  },
+  {
+    "name": "getsatisfaction-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "https://getsatisfaction.com/t/{shortcode}"
+  },
+  {
+    "name": "gg-gg",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://gg.gg/{shortcode}"
+  },
+  {
+    "name": "gkurl-us",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://gkurl.us/{shortcode}"
+  },
+  {
+    "name": "go-usa-gov",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://go.usa.gov/{shortcode}"
+  },
+  {
+    "name": "goo-gl",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://goo.gl/{shortcode}"
+  },
+  {
+    "name": "gouri-tv",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://gouri.tv/{shortcode}"
+  },
+  {
+    "name": "hec-su",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://hec.su/{shortcode}"
+  },
+  {
+    "name": "hoblu-es",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://hoblu.es/{shortcode}"
+  },
+  {
+    "name": "hub-me-a",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://hub.me/a{shortcode}"
+  },
+  {
+    "name": "hub-me-r",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://hub.me/r{shortcode}"
+  },
+  {
+    "name": "isgd_6",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_pattern": "https://is.gd/{shortcode}"
+  },
+  {
+    "name": "jdem-cz",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://jdem.cz/{shortcode}"
+  },
+  {
+    "name": "kas-pr",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://kas.pr/{shortcode}"
+  },
+  {
+    "name": "kcy-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://kcy.me/{shortcode}"
+  },
+  {
+    "name": "korta-nu",
+    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
+    "url_pattern": "http://korta.nu/{shortcode}"
+  },
+  {
+    "name": "like2b-uy",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://like2b.uy/{shortcode}"
+  },
+  {
+    "name": "lnk-sk",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://lnk.sk/{shortcode}"
+  },
+  {
+    "name": "lnq-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://lnq.me/{shortcode}"
+  },
+  {
+    "name": "lurl-no",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://lurl.no/{shortcode}"
+  },
+  {
+    "name": "m0e-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://m0e.me/{shortcode}"
+  },
+  {
+    "name": "migre-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://www.migre.me/{shortcode}"
+  },
+  {
+    "name": "minu-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://minu.me/{shortcode}"
+  },
+  {
+    "name": "mrte-ch",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://mrte.ch/{shortcode}"
+  },
+  {
+    "name": "mysp-ac",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://mysp.ac/{shortcode}"
+  },
+  {
+    "name": "nblo-gs",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://nblo.gs/{shortcode}"
+  },
+  {
+    "name": "nig-gr",
+    "shortcode_alphabet": "_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://nig.gr/{shortcode}"
+  },
+  {
+    "name": "nsfw-in",
+    "shortcode_alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://nsfw.in/{shortcode}"
+  },
+  {
+    "name": "oak-ctx-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://oak.ctx.ly/r/{shortcode}"
+  },
+  {
+    "name": "ow-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://ow.ly/{shortcode}"
+  },
+  {
+    "name": "p-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://p.ly/{shortcode}"
+  },
+  {
+    "name": "pear-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://pear.ly/{shortcode}"
+  },
+  {
+    "name": "ph-ly",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_pattern": "http://ph.ly/{shortcode}"
+  },
+  {
+    "name": "piciurl-hu",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_",
+    "url_pattern": "http://piciurl.hu/{shortcode}"
+  },
+  {
+    "name": "poeurl-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://poeurl.com/{shortcode}"
+  },
+  {
+    "name": "poeurl-com3",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://poeurl.com/{shortcode}"
+  },
+  {
+    "name": "pub-vitrue-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://pub.vitrue.com/{shortcode}"
+  },
+  {
+    "name": "puri-na",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://puri.na/{shortcode}"
+  },
+  {
+    "name": "qr-cx",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://qr.cx/{shortcode}"
+  },
+  {
+    "name": "qt-catbox-moe",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "https://qt.catbox.moe/{shortcode}"
+  },
+  {
+    "name": "rlu-ru",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://rlu.ru/{shortcode}"
+  },
+  {
+    "name": "rod-gs",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://rod.gs/{shortcode}"
+  },
+  {
+    "name": "rtsoftware-systems",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://rtsoftware.systems/{shortcode}"
+  },
+  {
+    "name": "s-id",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://s.id/{shortcode}"
+  },
+  {
+    "name": "shar-es",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://shar.es/{shortcode}"
+  },
+  {
+    "name": "sharedby-co_6",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://sharedby.co/{shortcode}"
+  },
+  {
+    "name": "shortdoi-org",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://dx.doi.org/10/{shortcode}"
+  },
+  {
+    "name": "shortn-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://shortn.me/{shortcode}"
+  },
+  {
+    "name": "shrt-st",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://shrt.st/{shortcode}"
+  },
+  {
+    "name": "sketchfab-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://sketchfab.com/s/{shortcode}"
+  },
+  {
+    "name": "snipurl",
+    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz-_~",
+    "url_pattern": "http://snipurl.com/{shortcode}"
+  },
+  {
+    "name": "snipurl_range2",
+    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz-_~",
+    "url_pattern": "http://snipurl.com/{shortcode}"
+  },
+  {
+    "name": "spne-ws",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://spne.ws/{shortcode}"
+  },
+  {
+    "name": "spnsr-tw",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://spnsr.tw/{shortcode}"
+  },
+  {
+    "name": "srtn-us",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://srtn.us/{shortcode}"
+  },
+  {
+    "name": "sx3-se",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://sx3.se/{shortcode}"
+  },
+  {
+    "name": "t7-hu",
+    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://t7.hu/{shortcode}"
+  },
+  {
+    "name": "techme-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://techme.me/{shortcode}"
+  },
+  {
+    "name": "theguardian-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://www.theguardian.com/p/{shortcode}"
+  },
+  {
+    "name": "tighturl-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://tighturl.com/{shortcode}"
+  },
+  {
+    "name": "tiny-pl",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://tiny.pl/{shortcode}"
+  },
+  {
+    "name": "tiny-tw",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://tiny.tw/{shortcode}"
+  },
+  {
+    "name": "tinyurl-hu_4",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://tinyurl.hu/{shortcode}/"
+  },
+  {
+    "name": "tinyurl_7",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://tinyurl.com/{shortcode}"
+  },
+  {
+    "name": "tip-pe",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://tip.pe/{shortcode}"
+  },
+  {
+    "name": "tr-im_gravity4",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://tr.im/{shortcode}"
+  },
+  {
+    "name": "trap-it",
+    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://trap.it/{shortcode}"
+  },
+  {
+    "name": "u-to",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://u.to/{shortcode}"
+  },
+  {
+    "name": "u4-hu",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://u4.hu/x/{shortcode}"
+  },
+  {
+    "name": "ur1-ca",
+    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://ur1.ca/{shortcode}"
+  },
+  {
+    "name": "url-ie",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://url.ie/{shortcode}"
+  },
+  {
+    "name": "urlcut-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://urlcut.com/{shortcode}"
+  },
+  {
+    "name": "vbly-us",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://vbly.us/{shortcode}"
+  },
+  {
+    "name": "vgd_6",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_pattern": "https://v.gd/{shortcode}"
+  },
+  {
+    "name": "viddy-it",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://www.viddy.it/{shortcode}"
+  },
+  {
+    "name": "vzturl-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://vzturl.com/{shortcode}"
+  },
+  {
+    "name": "waa-ai",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://waa.ai/{shortcode}"
+  },
+  {
+    "name": "wowurl-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://wowurl.com/{shortcode}"
+  },
+  {
+    "name": "wp-me",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://wp.me/{shortcode}"
+  },
+  {
+    "name": "x-vu",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://x.vu/{shortcode}"
+  },
+  {
+    "name": "xco",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "https://x.co/{shortcode}"
+  },
+  {
+    "name": "xn--i-8ia-ga",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://ĝi.ga/{shortcode}"
+  },
+  {
+    "name": "xrl-us",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://xrl.us/{shortcode}"
+  },
+  {
+    "name": "xrl-us_lowercase",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://xrl.us/{shortcode}"
+  },
+  {
+    "name": "xurl-es",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://xurl.es/{shortcode}"
+  },
+  {
+    "name": "xxsurl-de",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://xxsURL.de/{shortcode}"
+  },
+  {
+    "name": "y-ahoo-it_5",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+",
+    "url_pattern": "http://y.ahoo.it/{shortcode}"
+  },
+  {
+    "name": "y-ahoo-it_6",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://y.ahoo.it/{shortcode}"
+  },
+  {
+    "name": "y-ahoo-it_8",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://y.ahoo.it/{shortcode}"
+  },
+  {
+    "name": "yatuc",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_$",
+    "url_pattern": "http://yatuc.com/{shortcode}"
+  },
+  {
+    "name": "yatuc-com",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_",
+    "url_pattern": "http://yatuc.com/{shortcode}"
+  },
+  {
+    "name": "yoolink-to",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://yoolink.to/{shortcode}"
+  },
+  {
+    "name": "zpr-io",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_pattern": "http://zpr.io/{shortcode}"
+  },
+  {
+    "name": "zurl-ws",
+    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_pattern": "http://zurl.ws/{shortcode}"
+  }
+]
