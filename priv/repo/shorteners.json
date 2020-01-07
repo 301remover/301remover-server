@@ -426,12 +426,6 @@
     "supports_https": false
   },
   {
-    "domain": "poeurl.com",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "url_pattern": "poeurl\\.com\\/{shortcode}",
-    "supports_https": false
-  },
-  {
     "domain": "pub.vitrue.com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
     "url_pattern": "pub\\.vitrue\\.com\\/{shortcode}",
@@ -514,12 +508,6 @@
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
     "url_pattern": "sketchfab\\.com\\/s\\/{shortcode}",
     "supports_https": true
-  },
-  {
-    "domain": "snipurl.com",
-    "shortcode_alphabet": "00123456789abcdefghijklmnopqrstuvwxyz-_~",
-    "url_pattern": "snipurl\\.com\\/{shortcode}",
-    "supports_https": false
   },
   {
     "domain": "snipurl.com",
@@ -714,12 +702,6 @@
     "supports_https": false
   },
   {
-    "domain": "xrl.us",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
-    "url_pattern": "xrl\\.us\\/{shortcode}",
-    "supports_https": false
-  },
-  {
     "domain": "xurl.es",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
     "url_pattern": "xurl\\.es\\/{shortcode}",
@@ -740,12 +722,6 @@
   {
     "domain": "yatuc.com",
     "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_$",
-    "url_pattern": "yatuc\\.com\\/{shortcode}",
-    "supports_https": false
-  },
-  {
-    "domain": "yatuc.com",
-    "shortcode_alphabet": "0123456789abcdefghijklmnopqrstuvwxyz_",
     "url_pattern": "yatuc\\.com\\/{shortcode}",
     "supports_https": false
   },
