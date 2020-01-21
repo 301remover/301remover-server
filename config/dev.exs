@@ -25,8 +25,7 @@ config :unshortener, UnshortenerWeb.Endpoint,
 config :unshortener, :amqp,
   host: "localhost",
   username: "301remover",
-  password: "your_password_here",
-  virtual_host: ""
+  password: "your_password_here"
 
 # ## SSL Support
 #
