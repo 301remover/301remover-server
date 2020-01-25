@@ -49,7 +49,10 @@ defmodule Unshortener.MixProject do
       {:phoenix_ecto, "~> 4.0"},
       {:phoenix_pubsub, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
-      {:postgrex, ">= 0.0.0"}
+      {:postgrex, ">= 0.0.0"},
+      {:prometheus_ex, "~> 3.0"},
+      {:prometheus_phoenix, "~> 1.3.0"},
+      {:prometheus_plugs, "~> 1.1.5"}
     ]
   end
 
