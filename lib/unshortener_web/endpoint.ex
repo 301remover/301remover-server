@@ -1,6 +1,8 @@
 defmodule UnshortenerWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :unshortener
 
+  plug Unshortener.MetricsExporter
+
   socket "/socket", UnshortenerWeb.UserSocket,
     websocket: true,
     longpoll: false

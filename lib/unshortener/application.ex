@@ -8,6 +8,9 @@ defmodule Unshortener.Application do
   def start(_type, _args) do
     import Supervisor.Spec
 
+    Unshortener.MetricsExporter.setup()
+    Unshortener.PhoenixInstrumenter.setup()
+
     # List all child processes to be supervised
     children = [
       # Start ecto repo
