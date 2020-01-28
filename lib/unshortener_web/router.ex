@@ -12,4 +12,8 @@ defmodule UnshortenerWeb.Router do
     post("/unshorten", UrlUnshortenController, :index)
     get("/redirect/:domain/:shortcode", RedirectController, :show)
   end
+
+  scope "/", UnshortenerWeb do
+    get("/", HomePageController, :index)
+  end
 end
