@@ -9,6 +9,39 @@
   </head>
 
   <body>
+    <header>
+      <a href="">
+        <img id="logo" class="left" src="images/logo.svg"/><h1 class="left">301remover</h1>
+      </a>
+    </header>
+    <div class="two-third center">
+      <p>
+        301 redirects used by shortener services such as bitly, tinyurl, and others are harmful to user privacy, web performance, and the overall well being of the internet.
+      </p>
+      <p>
+        301remover alleviates these issues by bypassing shortener services, archiving shortened links and replacing them when a webpage loads.
+      </p>
+    </div>
+    <div id="downloads" class="center">
+      <h2>Download 301remover from your browser's web-store:</h2>
+        <div class="center third">
+          <a href="https://addons.mozilla.org/en-US/firefox/extensions/">
+            <img class="full" src="images/firefox-addon.svg"/>
+          </a>
+          <a href="https://chrome.google.com/webstore/category/extensions">
+            <img class="full" src="images/chrome-store.svg"/>
+          </a>
+        </div>
+        <p id="js-enabled" class="js-message"></p>
+        <noscript>
+          <p class="js-message">
+            We respect your privacy and right to have JavaScript disabled. 301remover does not track users through any of its services.
+          </p>
+        </noscript>
+    </div>
 
+    <script>
+      document.getElementById("js-enabled").innerText="We see you have JavaScript enabled. 301remover recommends the use of the browser add-on \"noscript\" to further protect your privacy."
+    </script>
   </body>
 </html>
