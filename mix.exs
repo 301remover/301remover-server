@@ -47,6 +47,7 @@ defmodule Unshortener.MixProject do
       {:jason, "~> 1.0"},
       {:phoenix, "~> 1.4.10"},
       {:phoenix_ecto, "~> 4.0"},
+      {:phoenix_html, "~> 2.11"},
       {:phoenix_pubsub, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, ">= 0.0.0"},
