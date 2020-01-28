@@ -1,0 +1,44 @@
+html{
+  background-color: #88d6fa;
+}
+body{margin: 0;}
+header{
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  background: #01313f;
+  color: white;
+  width: 100%;
+}
+h1{
+  color: white;
+  display: inline;
+  padding: .25vw;
+  padding-top: calc(1vw + 1.5vh);
+  font-size: calc(1.5vw + 2vh);
+  margin: 0;
+}
+h2{font-size: calc(1.25vw + 1.75vh);}
+p{font-size: calc(.75vw + 1.75vh);}
+
+.left{float: left;}
+.right{float: right;}
+.center{margin: auto;}
+.full{width: 100%;}
+.two-third{width: 66%;}
+.half{width: 50%;}
+.third{width: 33%;}
+
+#downloads{width: 60%;}
+#logo{
+  padding: calc(.5vw + 1.25vh);
+  position: relative;
+  width: auto;
+  height: calc(1.5vw + 2vh);
+}
+
+@media screen and (orientation: portrait){
+  .two-third{width: 90%;}
+  .third{width: 66%;}
+  #downloads{width: 80%;}
+}
