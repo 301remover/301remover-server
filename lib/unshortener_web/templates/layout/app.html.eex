@@ -32,6 +32,12 @@
             <img class="full" src="images/chrome-store.svg"/>
           </a>
         </div>
+      <h2> Also available for the following chat services:</h2>
+        <div class="center third">
+          <a href="https://discordapp.com/api/oauth2/authorize?client_id=674711796015300639&permissions=2048&scope=bot">
+            <img class="full" src="images/discord-logo.svg"/>
+          </a>
+        </div>
         <p id="js-enabled" class="js-message"></p>
         <noscript>
           <p class="js-message">
